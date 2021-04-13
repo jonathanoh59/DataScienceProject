@@ -22,7 +22,7 @@ import tensorflow as tf
 import pandas as pd
 from sklearn import preprocessing
 
-raw_csv_data = np.loadtxt(r'C:\Users\User\Downloads\Audiobooks_data.csv', delimiter=',')
+raw_csv_data = np.loadtxt(r'Audiobooks_data.csv', delimiter=',')
 unscaled_inputs_all = raw_csv_data[:, 1:-1]
 targets_all = raw_csv_data[:, -1]
 
